@@ -31,5 +31,4 @@ public class Vehicle {
         this.units = units;
     }
 
-
 }

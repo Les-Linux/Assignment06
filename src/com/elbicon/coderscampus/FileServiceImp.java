@@ -44,7 +44,7 @@ public class FileServiceImp implements FileService{
         return vehicles;
     }
 
-    private String Model(String model) {
+    static String Model(String model) {
         //a regex pattern to extract the model from the file name passed into the method
         final String regex = "^(.+\\/)*(.+)\\.(.+)$";
         final Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
